@@ -1,0 +1,34 @@
+//The scripts below are loaded in the order they appear in the file.
+// JavaScript requires functions to be loaded prior to calling them 
+
+//load all the global functions, so you can use them later. Mandatory!
+//path to the globals.js file. this file cannot be modified!
+scripts/script_functions.js
+
+//load connections, so they are available later. Mandatory!
+//path to the connections.js file. this file cannot be modified!
+
+scripts/script_connections.js
+
+//from here on, you define your own scripts and variables files
+//be careful, you need to define variables before using them.
+//pay attention to the JSon format when defining variables
+scripts/script_variables.js
+
+
+
+// script that generates csv logs
+scripts/script_csvlog.js
+
+// script that generates HTML analytics
+scripts/script_analytics.js
+
+
+// script for changing configuration of logging
+scripts/script_logging.js
+
+
+// script that defines the Issuer behaviour
+scripts/script_issuer.js
+
+
